@@ -1,24 +1,38 @@
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
 # Logs
-logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Python cache (if any Python files exist in project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# TypeScript/JavaScript specific
+*.tsbuildinfo
+.nyc_output/
+coverage/
+
+# Test coverage
+.html
+```
